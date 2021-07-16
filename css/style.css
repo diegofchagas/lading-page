@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iii {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 280px;
+    padding-right: 420px;
+    
+}
+
+.foto2{
+    width: 35%;
+    height: 25%;
+    margin-top: 92%;
+    margin-left: 66%;
+    border-radius: 15px;
+}
+
+
+.section-2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+
+.background-section-one{
+    background-image: url(../assests/homem-aranha.jpg);
+    background-size: cover;
+   background-attachment: fixed;
+ 
+}
+
+.div-produtos {
+    display: flex;
+    margin: 60px;
+    align-items: center;
+    
+    
+}
+
+.ps4{
+    background-color: #fff;
+    margin: 30px;
+    width: 350px;
+    height: 400px ;
+   
+}
+
+.ps4-texto {
+    margin-left: 8px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    font-size: 23px;
+}
+
+
+.section-2 .lista:hover{
+    border-bottom: 4px solid black;
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+
+}
+
+
+.lista{
+    width: 250px;
+    height: 250px;
+    margin: 60px;
+}
+
+
+.background-section-two{
+    background-image: url(../assests/ps5.png);
+    background-size: cover;
+    padding-bottom: 90px;
+    background-repeat: no-repeat;
+ 
+}
+
+.card-container{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 23em;
+   
+
+}
+
+input{ width: 100%;
+    height: 30px;
+    margin-bottom: 9px;
+    text-align: center;
+    border-radius: 12px;
+    background: rgb(22, 21, 21) ;
+    color: rgb(245, 245, 245);
+
+}
+
+form{
+    display: grid;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    height: 40px;
+    padding: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    
+}
